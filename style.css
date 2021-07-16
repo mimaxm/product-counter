@@ -1,0 +1,25 @@
+.counter__wrapper {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   width: 100px;
+   height: 30px;
+   background: linear-gradient(0deg, #f8f8fb, #f8f8fb), linear-gradient(350.68deg, #efeff5 5.23%, #ffffff 91.14%);
+   box-shadow: inset 20px 20px 40px -20px #dedee9;
+   border-radius: 20px;
+   padding: 30px;
+   font-size: 35px;
+   font-weight: 700;
+   color: #333333;
+}
+
+.counter__value {
+   width: 60px;
+   margin: 0 5px;
+   text-align: center;
+}
+
+.counter__btn {
+   cursor: pointer;
+   user-select: none;
+}
